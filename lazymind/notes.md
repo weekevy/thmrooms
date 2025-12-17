@@ -1,12 +1,16 @@
 # notes LazyAdmin
 
 ## recon
-### Nmap result
-img: [nmap_output.png]
+#### Nmap result
+![img1](./nmap_result.png)
 we notice by the following output the server use **ssh** and **ubutu** server
-### Content Discovery
-we get this output after we do directory enumeration using FFUF
-``` ffuf -u http://TARGET_MACHINE/FUZZ -w /path/wordlis ```
+#### Content Discovery
+``` ffuf -u http://TARGET_MACHINE/FUZZ -w /path/wordlist ```
+- ffuf output after we do directory enumeration we notice that we get output 
+img :[ffuf_output.png]
+
+
+
 
 
 
